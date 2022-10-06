@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,13 @@
 		0D2992C328EEDDA000DA4AD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992C128EEDDA000DA4AD5 /* Main.storyboard */; };
 		0D2992C528EEDDA100DA4AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992C428EEDDA100DA4AD5 /* Assets.xcassets */; };
 		0D2992C828EEDDA100DA4AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992C628EEDDA100DA4AD5 /* LaunchScreen.storyboard */; };
+		0D2992DA28EEDE5B00DA4AD5 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992D328EEDE5B00DA4AD5 /* D.wav */; };
+		0D2992DB28EEDE5B00DA4AD5 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992D428EEDE5B00DA4AD5 /* G.wav */; };
+		0D2992DC28EEDE5B00DA4AD5 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992D528EEDE5B00DA4AD5 /* C.wav */; };
+		0D2992DD28EEDE5B00DA4AD5 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992D628EEDE5B00DA4AD5 /* B.wav */; };
+		0D2992DE28EEDE5B00DA4AD5 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992D728EEDE5B00DA4AD5 /* A.wav */; };
+		0D2992DF28EEDE5B00DA4AD5 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992D828EEDE5B00DA4AD5 /* E.wav */; };
+		0D2992E028EEDE5B00DA4AD5 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2992D928EEDE5B00DA4AD5 /* F.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		0D2992C428EEDDA100DA4AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D2992C728EEDDA100DA4AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D2992C928EEDDA100DA4AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2992D328EEDE5B00DA4AD5 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		0D2992D428EEDE5B00DA4AD5 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		0D2992D528EEDE5B00DA4AD5 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		0D2992D628EEDE5B00DA4AD5 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		0D2992D728EEDE5B00DA4AD5 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		0D2992D828EEDE5B00DA4AD5 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		0D2992D928EEDE5B00DA4AD5 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		0D2992BA28EEDDA000DA4AD5 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
-				0D2992BB28EEDDA000DA4AD5 /* AppDelegate.swift */,
-				0D2992BD28EEDDA000DA4AD5 /* SceneDelegate.swift */,
-				0D2992BF28EEDDA000DA4AD5 /* ViewController.swift */,
-				0D2992C128EEDDA000DA4AD5 /* Main.storyboard */,
-				0D2992C428EEDDA100DA4AD5 /* Assets.xcassets */,
-				0D2992C628EEDDA100DA4AD5 /* LaunchScreen.storyboard */,
-				0D2992C928EEDDA100DA4AD5 /* Info.plist */,
+				0D2992CF28EEDDC700DA4AD5 /* App */,
+				0D2992D028EEDDEC00DA4AD5 /* Controller */,
+				0D2992D128EEDE0500DA4AD5 /* Resource */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		0D2992CF28EEDDC700DA4AD5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0D2992C628EEDDA100DA4AD5 /* LaunchScreen.storyboard */,
+				0D2992BB28EEDDA000DA4AD5 /* AppDelegate.swift */,
+				0D2992BD28EEDDA000DA4AD5 /* SceneDelegate.swift */,
+				0D2992C928EEDDA100DA4AD5 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0D2992D028EEDDEC00DA4AD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D2992BF28EEDDA000DA4AD5 /* ViewController.swift */,
+				0D2992C128EEDDA000DA4AD5 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0D2992D128EEDE0500DA4AD5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0D2992D228EEDE1300DA4AD5 /* Sounds */,
+				0D2992C428EEDDA100DA4AD5 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0D2992D228EEDE1300DA4AD5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0D2992D728EEDE5B00DA4AD5 /* A.wav */,
+				0D2992D628EEDE5B00DA4AD5 /* B.wav */,
+				0D2992D528EEDE5B00DA4AD5 /* C.wav */,
+				0D2992D328EEDE5B00DA4AD5 /* D.wav */,
+				0D2992D828EEDE5B00DA4AD5 /* E.wav */,
+				0D2992D928EEDE5B00DA4AD5 /* F.wav */,
+				0D2992D428EEDE5B00DA4AD5 /* G.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +156,7 @@
 				};
 			};
 			buildConfigurationList = 0D2992B328EEDDA000DA4AD5 /* Build configuration list for PBXProject "Xylophone" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,7 +178,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2992DC28EEDE5B00DA4AD5 /* C.wav in Resources */,
 				0D2992C828EEDDA100DA4AD5 /* LaunchScreen.storyboard in Resources */,
+				0D2992DE28EEDE5B00DA4AD5 /* A.wav in Resources */,
+				0D2992E028EEDE5B00DA4AD5 /* F.wav in Resources */,
+				0D2992DB28EEDE5B00DA4AD5 /* G.wav in Resources */,
+				0D2992DD28EEDE5B00DA4AD5 /* B.wav in Resources */,
+				0D2992DA28EEDE5B00DA4AD5 /* D.wav in Resources */,
+				0D2992DF28EEDE5B00DA4AD5 /* E.wav in Resources */,
 				0D2992C528EEDDA100DA4AD5 /* Assets.xcassets in Resources */,
 				0D2992C328EEDDA000DA4AD5 /* Main.storyboard in Resources */,
 			);
@@ -288,12 +348,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = Xylophone/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +376,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = Xylophone/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
