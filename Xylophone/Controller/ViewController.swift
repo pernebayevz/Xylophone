@@ -19,11 +19,11 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         print("\(sender.title(for: .normal)!) button was pressed")
-        play()
+        play(fileName: sender.title(for: .normal)!)
     }
     
-    func play() {
-        guard let url = Bundle.main.url(forResource: "A", withExtension: "wav") else {
+    func play(fileName: String) {
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: "wav") else {
             return
         }
 
